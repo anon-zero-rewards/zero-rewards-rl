@@ -10,6 +10,13 @@ Baselines implemented:
 - Reward Progress
 - Best-of-N aware finetuning
 
+## installation
+
+```bash
+# create new env using conda or uv or venv
+pip install -r requirements.txt
+```
+
 ## create star graph data for training
 Please follow the notebook `create_star_graph_data.ipynb` to generate a star-graph dataset and push to HF.
 
